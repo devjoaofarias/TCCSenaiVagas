@@ -202,10 +202,6 @@ function HomeCandidato() {
                     <InputGroup className="mb-3">
 
                         <div className="box-filtro">
-                            <div className="filtro">
-                                <img id="imgFiltro" src={imgFilter} alt="imagem de filtro de buscas" onClick={handleShow} />
-                                <h4 onClick={handleShow}>Filtrar</h4>
-                            </div>
                             <div className="buscar">
                                 <FormControl placeholder="Busque vagas" aria-label="Busque vagas" aria-describedby="basic-addon2" className="inputBuscar"
                                     onChange={e => setVagaFilter(e.target.value)} />

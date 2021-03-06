@@ -153,10 +153,6 @@ function DashboardAdmin() {
                                         VerDetalhesVaga(vaga.id);
                                         vagaShow();
                                     }}> Ver Detalhes </Button>
-
-                                    <Button variant="primary" id="btn-verInscritos" onClick={event => {
-                                        event.preventDefault();
-                                    }}> Ver Inscritos </Button>
                                 </td>
                             </tr>
                         );

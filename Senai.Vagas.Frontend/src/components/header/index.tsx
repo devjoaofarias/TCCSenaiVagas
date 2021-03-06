@@ -61,9 +61,7 @@ const Header = () => {
             else if ((tokenDecoded?.role === "3")) {
                 return (
                     <div>
-                        <Nav.Link href="">Gerenciar Estágios</Nav.Link>
                         <Nav.Link href="/cadastrar-admin">Cadastrar Administrador</Nav.Link>
-                        <Nav.Link href="">Cadastrar Aluno</Nav.Link>
                         <Nav.Link href="/dashboard">Dashboard</Nav.Link>
                     </div>
                 );

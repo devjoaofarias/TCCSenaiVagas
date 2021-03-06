@@ -279,9 +279,7 @@ function CadastrarVaga() {
                                 setNomeVaga(e.target.value)
                                 SaveProgress();
                             }} value={nomeVaga} />
-                            <Form.Text>
-                                Uma descrição sobre o campo
-                            </Form.Text>
+                           
                         </Form.Group>
 
                         <Form.Group controlId="experiencia">
@@ -297,9 +295,7 @@ function CadastrarVaga() {
                                     })
                                 }
                             </Form.Control>
-                            <Form.Text>
-                                Uma descrição sobre o campo
-                            </Form.Text>
+                           
                         </Form.Group>
 
                         <Form.Group controlId="cargo">
@@ -308,9 +304,7 @@ function CadastrarVaga() {
                                 setCargo(e.target.value)
                                 SaveProgress()
                             }} value={cargo} />
-                            <Form.Text>
-                                Uma descrição sobre o campo
-                            </Form.Text>
+                            
                         </Form.Group>
 
                         <Form.Group controlId="municipios">
@@ -325,9 +319,7 @@ function CadastrarVaga() {
                                     listarMunicipios()
                                 }
                             </Form.Control>
-                            <Form.Text>
-                                Uma descrição sobre o campo
-                            </Form.Text>
+                            
                         </Form.Group>
 
                         <Form.Group controlId="faixas-salariais">
@@ -343,9 +335,7 @@ function CadastrarVaga() {
                                     })
                                 }
                             </Form.Control>
-                            <Form.Text>
-                                Uma descrição sobre o campo
-                            </Form.Text>
+                            
                         </Form.Group>
 
                         <Form.Group controlId="data-encerramento">
@@ -354,9 +344,7 @@ function CadastrarVaga() {
                                 setDataEncerramento(e.target.value)
                                 SaveProgress();
                             }} value={dataEncerramento} />
-                            <Form.Text>
-                                Uma descrição sobre o campo
-                            </Form.Text>
+                            
                         </Form.Group>
 
                         <Form.Group controlId="areas-recomendadas">
@@ -373,9 +361,7 @@ function CadastrarVaga() {
                                     />
                                 );
                             })}
-                            <Form.Text>
-                                Uma descrição sobre o campo
-                            </Form.Text>
+                           
                         </Form.Group>
 
                         <Form.Group controlId="descricao-vaga">

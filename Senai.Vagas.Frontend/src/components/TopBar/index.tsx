@@ -33,21 +33,19 @@ const TopBar: React.FC<TopBar> = ({ userName }) => {
         history.push('perfil')
     }
 
+    const MinhaEmpresa = () => {
+        history.push('minha-empresa')
+    }
+
     return (
         <div className="bar">
             <div className="bar-items" onClick={event => {
                 event.preventDefault();
                 MeuPerfil();
+                MinhaEmpresa();
             }}>
                 <FaUser />
                 <span>{userName}</span>
-            </div>
-            <div className="bar-items" onClick={event => {
-                event.preventDefault();
-                setShowNotification(!showNotification);
-                setTarget(event.target);
-            }}>
-                <FaBell />
             </div>
             <div className="bar-items" onClick={event => {
                 event.preventDefault();

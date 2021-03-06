@@ -261,11 +261,6 @@ const Login = () => {
                     <div className="links-login">
                         <p onClick={event => {
                             event.preventDefault()
-                            showModalSenha();
-                        }}>Esqueceu sua senha?</p>
-
-                        <p onClick={event => {
-                            event.preventDefault()
                             showModalCandidato();
                         }}>Cadastrar como candidato</p>
                     </div>

@@ -259,15 +259,9 @@ function MeuPerfil() {
                         <ListGroup variant="flush" className="infos-perfil">
                             <ListGroup.Item><b>Nome:</b> {nome} </ListGroup.Item>
 
-                            <ListGroup.Item className="links"><b>Email:</b> {email} <p onClick={event => {
-                                event.preventDefault()
-                                //função de abrir modal
-                            }}>Alterar Email</p></ListGroup.Item>
+                            <ListGroup.Item className="links"><b>Email:</b> {email} </ListGroup.Item>
 
-                            <ListGroup.Item className="links"><b>Senha:</b> ******* <p onClick={event => {
-                                event.preventDefault()
-                                //função de abrir modal
-                            }}>Alterar Senha</p></ListGroup.Item>
+                            <ListGroup.Item className="links"><b>Senha:</b> ******* </ListGroup.Item>
 
                             <ListGroup.Item><b>Sexo:</b> {sexo ? 'Masculino' : 'Feminino'} </ListGroup.Item>
                             <ListGroup.Item><b>Data de Nascimento:</b> {dataNascimento} </ListGroup.Item>
